@@ -4,11 +4,11 @@ function clicked(){
 		
 	var coruser ={
 		username:"test",
-		password:123,
+		password:"1234",
 	}; 
 	
 	if(user.value==coruser.username && pass.value==coruser.password){
-		window.open("file:///C:/c34/Project/Home%20page/index.html");
+		window.open("file:///C:/Users/Jasmine%20Reed/Documents/csf/home.html");
 	}else {
 		document.write("incorrect user name or Password");
 	}
